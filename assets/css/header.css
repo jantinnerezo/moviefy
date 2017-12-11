@@ -1,0 +1,107 @@
+/* header styles */
+
+header{
+    background:#64DD17;
+    color:#000;
+    padding-top:10px;
+    min-height:50px;
+    border-bottom:none !important;
+}
+
+header a{
+    color:#000;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:14px;
+}
+
+header a:hover{
+
+    color:#8BC34A;
+    font-weight:bold;
+}
+
+header ul{
+
+    margin:0;
+    padding:0;
+}
+
+header li{
+
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+
+}
+
+header #brand{
+
+    float:left;
+
+}
+
+header #brand  img {
+    vertical-align: middle;
+    width: 20%;
+
+}
+
+header #brand  h1{
+
+    margin:0;
+}
+
+header nav{
+
+    float:right;
+    margin-top:10px;
+
+}
+
+
+
+/* Bootstrap derived */
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom:0 !important;
+    border: 1px solid transparent;
+}
+/*.navbar-inverse {
+    background-color:#5cb85c!important;
+    border-color: #999 !important;
+}*/
+.navbar-inverse {
+    transition:0.7s;
+    background: transparent !important;
+    border:0 !important;
+    font-family:verdana;
+}
+
+.navbar-inverse.active{
+    transition:0.7s;
+    background-color:#5cb85c!important;
+    border-color: #999 !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff !important;
+}
+
+
+.navbar-brand img {
+    vertical-align: middle;
+    width: 20%;
+
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    /* padding: 15px 15px; */
+    padding-top: 5px !important;
+    font-size: 18px;
+    line-height: 20px;
+}
+
